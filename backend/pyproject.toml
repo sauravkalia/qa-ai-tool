@@ -1,0 +1,30 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Saurav Kalia",email = "sauravhunny@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi (>=0.115.11,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "boto3 (>=1.37.7,<2.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "typing-extensions (>=4.12.2,<5.0.0)",
+    "openai-whisper (>=20231117,<20240000)",
+    "opencv-python (>=4.9.0.80,<5.0.0)",
+    "pytesseract (>=0.3.10,<0.4.0)",
+    "langchain (>=0.1.6,<0.2.0)",
+    "playwright (>=1.41.2,<2.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "numpy (>=1.26.4,<2.0.0)",
+    "ffmpeg-python (>=0.2.0,<0.3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
